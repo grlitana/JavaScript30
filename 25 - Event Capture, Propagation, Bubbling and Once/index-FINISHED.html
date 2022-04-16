@@ -53,7 +53,7 @@
 
   divs.forEach(div => div.addEventListener('click', logText, {
     capture: false,
-    once: true
+    once: true // click will only be allowed once
   }));
 
   button.addEventListener('click', () => {
